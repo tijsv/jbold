@@ -166,10 +166,10 @@ nav {
 }
 
 .story-inner .title {
-  font-weight: 400;
-  font-size: 24px;
-  letter-spacing: 4px;
-  color: rgba(241,237,247,1);
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: rgba(181,156,76,1);
   margin-left: -40px;
   opacity: 0;
   margin-bottom: 20px;
