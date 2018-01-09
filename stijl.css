@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  /*background-color: rgba(241,237,247,0.05);*/
+  z-index: 1;
+}
+
+.nav-inner {
+  width: 100%;
+  height: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(241,237,247,1);
+  font-size: 12px;
+  letter-spacing: 4px;
+  padding: 0 40px;
+  text-transform: uppercase;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.background {
+  height: 110vh;
+  width: 100%;
+  background-image: url('backgroundfade.png');
+  background-size: cover;
+  position: relative;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(8, 15, 15, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.main .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  margin-bottom: 60px;
+  /*opacity: 0;*/
+  /*margin-top: 40px;*/
+}
+
+.title .logo {
+  width: 150px;
+  height: 150px;
+  background-size: 100%;
+  background-image: url("company_logo_258x180_1962f076aa75593bb74be42b366ee6b0.png");
+  float: left;
+  margin-right: 50px;
+}
+
+.title .text {
+  float: left;
+}
+
+.title .text .text-intro {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: rgba(241,237,247,1);
+}
+
+.title .text .text-name {
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 2px;
+  color: rgba(181,156,76,1);
+}
+
+.title .text .text-name span {
+  font-weight: 700;
+  /*opacity: 0;*/
+  /*margin-left: -40px;*/
+  /*text-transform: uppercase;*/
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: rgba(241,237,247,1);
+  text-align: center;
+  line-height: 32px;
+}
+
+.description .joke {
+  /*margin-bottom: 200px;*/
+}
+
+.description .joke span {
+  color: rgba(181,156,76,1);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description .question {
+  font-size: 28px;
+}
+
+.cta {
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+}
+
+.cta p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: rgba(241,237,247,1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cta .pointer {
+  width: 15px;
+  margin: 0 auto;
+}
+
+
+/* ---------- STORY ---------- */
+
+#story {
+  width: 100%;
+  height: 500px;
+  /*background-color: rgba(241,237,247,1);*/
+  background-color: rgba(8,15,15,1);
+  padding-top: 5vw;
+}
+
+#story .story-inner {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.story-inner .title {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 4px;
+  color: rgba(241,237,247,1);
+  margin-left: -40px;
+  opacity: 0;
+  margin-bottom: 20px;
+}
+
+.story-inner .text {
+  width: 80%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: rgba(241,237,247,0.8);
+  font-family: 'Playfair Display', serif;
+  margin-left: -40px;
+  opacity: 0;
+}
