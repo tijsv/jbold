@@ -186,3 +186,44 @@ nav {
   margin-left: -40px;
   opacity: 0;
 }
+
+.kader {
+  width: 1000px;
+  height: 500px;
+  background-color: red;
+  margin: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.innerk {
+  width: 100%;
+}
+
+.a {
+  height: 100px;
+  width: 50%;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.b {
+  height: 100px;
+  width: 60%;
+  background-color: green;
+  margin: 0 auto;
+}
+
+.c {
+  height: 100px;
+  width: 80%;
+  background-color: orange;
+  margin: 0 auto;
+}
+
+.d {
+  height: 100px;
+  width: 95%;
+  background-color: pink;
+  margin: 0 auto;
+}
